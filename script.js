@@ -309,3 +309,10 @@ Hover.onmouseenter = function(){
   Load.style.visibility = "hidden";
 }
 // on load js end //
+//dropmenu start//
+let dropMenu = document.getElementById('drop-menu');
+let dropList = document.querySelector(".drop-list");
+
+dropMenu.addEventListener("click" , ()=>{
+dropList.classList.toggle("drop-visible");
+})
