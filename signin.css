@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-content{
+    padding:  20px;
+    border: 1px solid rgba(0, 0, 0, 0.329);
+    border-radius: 5px;
+}
+.logo{
+    object-fit: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.logo img{
+    width: 100px;
+    object-fit: cover;
+}
+.input{
+    margin-bottom: 1rem;
+}
+input{
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.349);
+}
+.input-inside{
+    outline: none;
+    padding: 6px 85px;
+}
+.copy1{
+    margin-top: 1rem;
+}
+.copy1 p{
+    line-height: 20px;
+}
+h3{
+    font-weight: 500;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+.amz-btn{
+    padding: 6px 133px;
+    background: #f7cb5ecb;
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    border-radius: 3px;
+    cursor: pointer;
+}
+.amz-btn:hover{
+    background: #f5be33cb;
+}
+.email{
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.font {
+    font-size: 0.8rem;
+}
+.help{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.help i{
+    margin-right: 10px;
+}
+.blue{
+    color: #0066c0;
+    cursor: pointer;
+}
+.blue:hover{
+    text-decoration: underline;
+    color: rgb(170, 50, 50);
+}
+.new{
+    position: relative;
+    margin-top: 1rem;
+    color: rgba(0, 0, 0, 0.616);
+    font-size: 0.6rem;
+    margin-bottom: 1rem;
+}
+.new::before{
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.329);
+    height: 1px;
+    width: 50%;
+    top: 0px;
+    left: 0px;
+   
+}
+.new::before{
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.137);
+    height: 1px;
+    width: 130%;
+    top: 10px;
+    left: -134px;
+}
+.new::after{
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.137);
+    height: 1px;
+    width: 130%;
+ bottom: 6px;
+    right: -134px;
+   
+}
+.acc{
+    padding: 7px 80px;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 1.5rem;
+}
+.copyright{
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.178);
+    background: rgba(255, 255, 255, 0.808);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.copyright-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.copyright-list ul{
+    display: flex;
+    
+}
+.copyright-list ul li{
+    list-style: none;  
+    margin: 34px 25px 0px 25px;
+}
+.copyright-list ul li a{
+    text-decoration: none;
+    font-size: 0.7rem;
+}

@@ -1,0 +1,34 @@
+
+.btm-btn3 {
+  margin-bottom: 2rem;
+  position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+border: 1px solid white;
+width: fit-content;
+padding: 20px 20px;
+display: none;
+
+}
+.sign-in3 {
+  margin-bottom: 0.3rem;
+}
+.btn-sign-in3 {
+  padding: 5px 22px;
+  font-weight: 600;
+  background: #fdc91e;
+  border: 1px solid #fdc91e;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+.btn-sign-in3:hover {
+  background: #f0b800;
+}
+.btn-btm-txt3 {
+  font-size: 0.7rem;
+}
+.start {
+  color: #007185;
+}
